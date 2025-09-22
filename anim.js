@@ -4,34 +4,73 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "el la estaba esperando", time: 15 },
-  { text: "con una flor amarilla", time: 18 },
-  { text: "ella lo estaba soñando", time: 27 },
-  { text: "con la luz en su pupila", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
-];
+  { text: "Él la estaba esperando", time: 16 },
+  { text: "Con una flor amarilla", time: 20 },
+  { text: "Ella lo estaba soñando", time: 25 },
+  { text: "Con la luz en su pupila", time: 28 },
+
+  { text: "Y el amarillo del Sol", time: 32 },
+  { text: "Iluminaba la esquina", time: 36 },
+  { text: "Lo sentía tan cercano", time: 40 },
+  { text: "Lo sentía desde niña", time: 44 },
+
+  { text: "Ella sabía que él sabía", time: 50 },
+  { text: "Que algún día pasaría", time: 55 },
+  { text: "Que vendría a buscarla", time: 60 },
+  { text: "Con sus flores amarillas", time: 65 },
+
+  { text: "No te apures, no detengas", time: 72 },
+  { text: "El instante del encuentro", time: 77 },
+  { text: "Está dicho que es un hecho", time: 82 },
+  { text: "No la pierdas, no hay derecho", time: 87 },
+
+  { text: "No te olvides que la vida", time: 94 },
+  { text: "Casi nunca está dormida", time: 99 },
+
+  { text: "En ese bar tan desierto", time: 110 },
+  { text: "Nos esperaba el encuentro", time: 114 },
+  { text: "Ella llegó en limusina", time: 119 },
+  { text: "Amarilla por supuesto", time: 123 },
+
+  { text: "Él se acercó de repente", time: 130 },
+  { text: "La miró tan de frente", time: 134 },
+  { text: "Toda una vida soñada", time: 138 },
+  { text: "Y no pudo decir nada", time: 142 },
+
+  { text: "Ella sabía que él sabía", time: 148 },
+  { text: "Que algún día pasaría", time: 152 },
+  { text: "Que vendría a buscarla", time: 156 },
+  { text: "Con sus flores amarillas", time: 160 },
+
+  { text: "No te apures, no detengas", time: 167 },
+  { text: "El instante del encuentro", time: 171 },
+  { text: "Está dicho que es un hecho", time: 176 },
+  { text: "No la pierdas, no hay derecho", time: 181 },
+
+  { text: "No te olvides que la vida", time: 188 },
+  { text: "Casi nunca está dormida", time: 193 },
+
+  { text: "(Flores amarillas)", time: 200 },
+
+  { text: "Ella sabía que él sabía", time: 210 },
+  { text: "Que algún día pasaría", time: 214 },
+  { text: "Que vendría a buscarla", time: 218 },
+  { text: "Con sus flores amarillas", time: 222 },
+
+  { text: "No te apures, no detengas", time: 229 },
+  { text: "El instante del encuentro", time: 233 },
+  { text: "Está dicho que es un hecho", time: 238 },
+  { text: "No la pierdas, no hay derecho", time: 243 },
+
+  { text: "No te olvides que la vida", time: 250 },
+  { text: "Casi nunca está dormida", time: 255 },
+
+  { text: "Ella sabía que él sabía", time: 265 },
+  { text: "Él sabía, ella sabía", time: 270 },
+  { text: "Que él sabía, ella sabía", time: 274 },
+  { text: "Y se olvidaron de sus flores amarillas", time: 280 }
+]
+;
 
 // Animar las letras
 function updateLyrics() {
