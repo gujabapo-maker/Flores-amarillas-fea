@@ -4,10 +4,10 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
+  { text: "el la estaba esperando", time: 15 },
+  { text: "con una flor amarilla", time: 18 },
+  { text: "ella lo estaba soñando", time: 27 },
+  { text: "con la luz en su pupila", time: 32 },
   { text: "Like water drops", time: 33 },
   { text: "Where I'm now? I don't know why", time: 41 },
   { text: "Nice butterflies in my hands", time: 47 },
