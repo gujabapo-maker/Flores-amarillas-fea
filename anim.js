@@ -4,71 +4,19 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Él la estaba esperando", time: 16 },
-  { text: "Con una flor amarilla", time: 20 },
-  { text: "Ella lo estaba soñando", time: 25 },
-  { text: "Con la luz en su pupila", time: 28 },
+  { text: "Cuando te sientas", time: 16 },
+  { text: "que no eres suficiente", time: 20 },
+  { text: "cuando la soledad te joda", time: 25 },
+  { text: "y el silencio te cale", time: 28 },
 
   { text: "Y el amarillo del Sol", time: 32 },
-  { text: "Iluminaba la esquina", time: 36 },
-  { text: "Lo sentía tan cercano", time: 40 },
-  { text: "Lo sentía desde niña", time: 44 },
+  { text: "no entre por tusventanas", time: 36 },
+  { text: "recuerda que tienes", time: 40 },
+  { text: "La sonrisa mas brillante", time: 44 },
 
-  { text: "Ella sabía que él sabía", time: 50 },
-  { text: "Que algún día pasaría", time: 55 },
-  { text: "Que vendría a buscarla", time: 60 },
-  { text: "Con sus flores amarillas", time: 65 },
-
-  { text: "No te apures, no detengas", time: 72 },
-  { text: "El instante del encuentro", time: 77 },
-  { text: "Está dicho que es un hecho", time: 82 },
-  { text: "No la pierdas, no hay derecho", time: 87 },
-
-  { text: "No te olvides que la vida", time: 94 },
-  { text: "Casi nunca está dormida", time: 99 },
-
-  { text: "En ese bar tan desierto", time: 110 },
-  { text: "Nos esperaba el encuentro", time: 114 },
-  { text: "Ella llegó en limusina", time: 119 },
-  { text: "Amarilla por supuesto", time: 123 },
-
-  { text: "Él se acercó de repente", time: 130 },
-  { text: "La miró tan de frente", time: 134 },
-  { text: "Toda una vida soñada", time: 138 },
-  { text: "Y no pudo decir nada", time: 142 },
-
-  { text: "Ella sabía que él sabía", time: 148 },
-  { text: "Que algún día pasaría", time: 152 },
-  { text: "Que vendría a buscarla", time: 156 },
-  { text: "Con sus flores amarillas", time: 160 },
-
-  { text: "No te apures, no detengas", time: 167 },
-  { text: "El instante del encuentro", time: 171 },
-  { text: "Está dicho que es un hecho", time: 176 },
-  { text: "No la pierdas, no hay derecho", time: 181 },
-
-  { text: "No te olvides que la vida", time: 188 },
-  { text: "Casi nunca está dormida", time: 193 },
-
-  { text: "(Flores amarillas)", time: 200 },
-
-  { text: "Ella sabía que él sabía", time: 210 },
-  { text: "Que algún día pasaría", time: 214 },
-  { text: "Que vendría a buscarla", time: 218 },
-  { text: "Con sus flores amarillas", time: 222 },
-
-  { text: "No te apures, no detengas", time: 229 },
-  { text: "El instante del encuentro", time: 233 },
-  { text: "Está dicho que es un hecho", time: 238 },
-  { text: "No la pierdas, no hay derecho", time: 243 },
-
-  { text: "No te olvides que la vida", time: 250 },
-  { text: "Casi nunca está dormida", time: 255 },
-
-  { text: "Ella sabía que él sabía", time: 265 },
-  { text: "Él sabía, ella sabía", time: 270 },
-  { text: "Que él sabía, ella sabía", time: 274 },
-  { text: "Y se olvidaron de sus flores amarillas", time: 280 }
+  { text: "que ilumina el dia de cualquiera", time: 50 },
+  { text: "recuerda que eres hermosa", time: 55 },
+  { text: "como cualquier flor que veas", time: 60 },
 ]
 ;
 
